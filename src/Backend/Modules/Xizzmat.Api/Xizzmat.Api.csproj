@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Customer\Xizzmat.Customer.Application\Xizzmat.Customer.Application.csproj" />
+    <ProjectReference Include="..\Customer\Xizzmat.Customer.Domain\Xizzmat.Customer.Domain.csproj" />
+    <ProjectReference Include="..\Customer\Xizzmat.Customer.Infrastructure\Xizzmat.Customer.Infrastructure.csproj" />
+    <ProjectReference Include="..\ServiceRequests\Xizzmat.SR.Application\Xizzmat.SR.Application.csproj" />
+    <ProjectReference Include="..\ServiceRequests\Xizzmat.SR.Infrastructure\Xizzmat.SR.Infrastructure.csproj" />
+    <ProjectReference Include="..\Worker\Xizzmat.Worker.Application\Xizzmat.Worker.Application.csproj" />
+    <ProjectReference Include="..\Worker\Xizzmat.Worker.Infrastructure\Xizzmat.Worker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

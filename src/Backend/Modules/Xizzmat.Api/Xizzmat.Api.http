@@ -1,0 +1,6 @@
+@Xizzmat.Api_HostAddress = http://localhost:5093
+
+GET {{Xizzmat.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

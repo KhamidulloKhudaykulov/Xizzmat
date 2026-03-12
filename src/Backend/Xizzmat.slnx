@@ -1,0 +1,25 @@
+<Solution>
+  <Folder Name="/Modules/">
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Xizzmat.Api/Xizzmat.Api.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Customer/">
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Customer/Xizzmat.Customer.Application/Xizzmat.Customer.Application.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Customer/Xizzmat.Customer.Domain/Xizzmat.Customer.Domain.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Customer/Xizzmat.Customer.Infrastructure/Xizzmat.Customer.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Modules/ServiceRequests/">
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/ServiceRequests/Xizzmat.SR.Application/Xizzmat.SR.Application.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/ServiceRequests/Xizzmat.SR.Domain/Xizzmat.SR.Domain.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/ServiceRequests/Xizzmat.SR.Infrastructure/Xizzmat.SR.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Worker/">
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Worker/Xizzmat.Worker.Application/Xizzmat.Worker.Application.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Worker/Xizzmat.Worker.Domain/Xizzmat.Worker.Domain.csproj" />
+    <Project Path="D:/selfprojects/Xizzmat/src/Backend/Modules/Worker/Xizzmat.Worker.Infrastructure/Xizzmat.Worker.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Элементы решения/">
+    <File Path=".dockerignore" />
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
+  </Folder>
+</Solution>

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  xizzmatapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xizzmatapi
+    ports:
+      - "5000:8080"
+    environment:
+      ConnectionStrings__CustomerDb: "Host=159.203.120.109;Database=CustomerDb;Username=xizzmatuser;Password=HMDL2003"
+      ConnectionStrings__WorkerDb: "Host=159.203.120.109;Database=WorkerDb;Username=xizzmatuser;Password=HMDL2003"
+      ConnectionStrings__ServiceRequestDb: "Host=159.203.120.109;Database=ServiceRequestDb;Username=xizzmatuser;Password=HMDL2003"
