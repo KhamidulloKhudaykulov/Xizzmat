@@ -36,7 +36,7 @@ public class DeleteCustomerCommandHandler : ICommandHandler<DeleteCustomerComman
                 message: "The customer with specified values was not found"));
 
         existingCustomer.Value.Delete();
-        await _customerRepository.UpdateAsync(existingCustomer.Value);
+        await _customerRepository.DeleteAsync(existingCustomer.Value);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 
         return Result.Success();
