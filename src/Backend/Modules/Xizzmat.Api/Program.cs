@@ -12,11 +12,6 @@ builder.Services.AddControllers();
 
 builder.Services.AddExternalServices(builder.Configuration);
 
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.ListenAnyIP(8080);
-});
-
 var app = builder.Build();
 
 app.MapOpenApi();

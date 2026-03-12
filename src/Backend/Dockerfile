@@ -8,6 +8,8 @@ COPY . .
 # API papkaga o'tish
 WORKDIR /src/Modules/Xizzmat.Api
 
+ENV ASPNETCORE_URLS=http://+:80
+
 # restore
 RUN dotnet restore
 
